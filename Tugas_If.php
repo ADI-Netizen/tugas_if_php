@@ -9,12 +9,21 @@
 
 <body>
     <?php
-    $nilai = 0;
+    $nilai1 = 50;
+    $nilai2 = 7;
 
-    if ($nilai % 2) {
-        echo "Ganjil";
-    } else {
+    if ($nilai1 % 2 == 0) {
         echo "Genap";
+    } else {
+        echo "Ganjil";
+    }
+
+    echo "<hr>";
+
+    if ($nilai2 % 2 == 0) {
+        echo "Genap";
+    } else {
+        echo "Ganjil";
     }
 
     ?>
